@@ -1,4 +1,3 @@
-/* Mobile First Adjustments */
 @media (max-width: 768px) {
     .container {
         padding: 0 15px;
@@ -121,7 +120,6 @@
     }
 }
 
-/* Existing styles remain the same */
 :root {
     --primary: #FD4826;
     --secondary: #E62872;
