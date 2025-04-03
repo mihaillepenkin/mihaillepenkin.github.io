@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Портфолио фронтенд-разработчика - примеры работ и контактная информация">
+    <meta name="keywords" content="портфолио, фронтенд, разработка, верстка">
+    <title>Мое портфолио | Фронтенд-разработчик</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="/styleForTask1.css" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav>
+            <a href="#" class="logo">Резюме: Лепенкин Михаил</a>
+            <div class="nav-links">
+                <a href="#home">Главная</a>
+                <a href="#skills">Навыки</a>
+                <a href="#portfolio">Портфолио</a>
+            </div>
+            <a href="#contact" class="contact-btn">Связаться</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero" id="home">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="subtitle">Привет, я - студент Высшей Школы Программной Инженерии, в частности начинающий it-специалист</h1>
+            <p style="color: #5CDB95;">Занимаюсь разработкой бекэнд части проектов на Java с использованием Spring и машинным обучением на Python с помощью PyTorch и TensorFlow.</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">Мои работы</a>
+                <a href="#contact" class="btn btn-secondary">Контакты</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills" id="skills">
+    <div class="container">
+        <div class="section-title">
+            <h2>Мои навыки</h2>
+            <p>Вот технологии, с которыми я работаю и в которых постоянно совершенствуюсь</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                    </svg>
+                </div>
+                <h3 class="superText">Бекэнд разработка</h3>
+                <p class="superText">Работаю с Java для написания бизнес-логики приложения. Использую Spring для написания серверной части приложения</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/>
+                    </svg>
+                </div>
+                <h3 class="superText" >Владение SQL</h3>
+                <p class="superText">Использую SQL для создания запросов в базу данных, а так же для создания баз данных.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                    </svg>
+                </div>
+                <h3 class="superText">Фреймворки для машинного обучения</h3>
+                <p class="superText">Обучение моделей с использованием современных фреймворков на Python: TensorFlow, PyTorch.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <div class="section-title">
+            <h2>Мои работы</h2>
+            <p>Примеры моих последних проектов</p>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="foodPhoto.jpg"
+                     alt="Проект 1" class="portfolio-img">
+                    <h3 class="portTitle">сайт помощи спортсменам по питанию</h3>
+                    <p>Python, Flask, JavaScript</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="ntsPhoto.png"
+                     alt="Проект 2" class="portfolio-img">
+                    <h3 class="portTitle">Сервис "Вторая Память"</h3>
+                    <p>Java, Spring, SQL</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="neuroPhoto.png"
+                     alt="Проект 3" class="portfolio-img">
+                    <h3 class="portTitle">Нейросеть для определения пневмонии</h3>
+                    <p>Python, TenserFlow</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Свяжитесь со мной</h2>
+                <p>Если у вас есть вопросы или вы хотите обсудить проект, заполните форму или свяжитесь со мной другими
+                    способами.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                 stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>mihaillepenkin@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                 stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Телефон</h4>
+                            <p>+7 (915) 298-14-92</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                 stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Адрес</h4>
+                            <p>г. Москва, ул. Федора Полетаева, 15к1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="http://localhost:63342/FrontEnd/task1.html?#home" method="post" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Тема</label>
+                        <input type="text" id="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Отправить сообщение</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
