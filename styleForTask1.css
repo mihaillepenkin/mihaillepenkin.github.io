@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 0 15px;
@@ -292,7 +296,7 @@ h1 {
     transform: translateY(-2px);
 }
 
-/* Skills Section */
+
 .skills {
     padding: 100px 0;
     background-color: var(--gray);
@@ -465,6 +469,10 @@ h1 {
 }
 
 .contact-item p {
+    color: #5CDB95;
+}
+
+.contact-item a {
     color: #5CDB95;
 }
 
